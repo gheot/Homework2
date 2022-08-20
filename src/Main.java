@@ -41,6 +41,30 @@ public class Main {
 
 
 
+        float MashaIncome = 67760;
+        float DenisIncome = 83690;
+        float KristinaIncome = 76230;
+        var annualMashaIncomeBefore = MashaIncome * 12;
+        var annualDenisIncomeBefore = DenisIncome * 12;
+        var annualKristinaIncomeBefore = KristinaIncome * 12;
+        MashaIncome = MashaIncome * 1.1f;
+        DenisIncome = DenisIncome * 1.1f;
+        KristinaIncome = KristinaIncome * 1.1f;
+        var annualMasha = MashaIncome * 12;
+        var annualDenis = DenisIncome * 12;
+        var annualKristina = KristinaIncome * 12;
+        var incomeDifferenceKristina = annualKristina - annualKristinaIncomeBefore;
+        var incomeDifferenceDenis = annualDenis - annualDenisIncomeBefore;
+        var incomeDifferenceMasha = annualMasha - annualMashaIncomeBefore;
+        System.out.println( "Маша теперь получает " + MashaIncome + " рублей. Годовой доход вырос на " + incomeDifferenceMasha + " рублей.");
+        System.out.println( "Денис теперь получает " + DenisIncome + " рублей. Годовой доход вырос на " + incomeDifferenceDenis + " рублей.");
+        System.out.println( "Маша теперь получает " + KristinaIncome + " рублей. Годовой доход вырос на " + incomeDifferenceKristina + " рублей.");
+
+
+
+
+
+
 
     }
 }
